@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Copyright */}
         <Row>
           <Col className="text-center ">
-            <p>&copy; 2024 EdaFace. All rights reserved.</p>
+            <p>&copy; 2023 EdaFace. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
