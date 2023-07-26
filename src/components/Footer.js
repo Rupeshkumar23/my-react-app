@@ -1,5 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Form, Button, Stack } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Stack from "react-bootstrap/Stack";
 
 const Footer = () => {
   return (
@@ -37,7 +42,7 @@ const Footer = () => {
 
           {/* Column 3 */}
           <Col md={3}>
-            <Stack gap={1} direction="vertical" >
+            <Stack gap={1} direction="vertical">
               <div className="d-flex align-items-center mb-2 fw-bold ms-1">
                 <img
                   src={require("../images/ethereum-nft.png")}
@@ -82,22 +87,34 @@ const Footer = () => {
             <h5 className="text-danger text-start fw-bold">Communities</h5>
             <ul className="list-unstyled text-start">
               <li>
-                <a  className="face text-decoration-none"href="https://www.facebook.com">
+                <a
+                  className="face text-decoration-none"
+                  href="https://www.facebook.com"
+                >
                   <i className="bi bi-facebook face "></i>Facebook
                 </a>
               </li>
               <li>
-                <a className="inst text-decoration-none" href="https://www.instagram.com">
+                <a
+                  className="inst text-decoration-none"
+                  href="https://www.instagram.com"
+                >
                   <i className="bi bi-instagram inst"></i>Instagram
                 </a>
               </li>
               <li>
-                <a  className="twit text-decoration-none"href="https://www.twitter.com">
+                <a
+                  className="twit text-decoration-none"
+                  href="https://www.twitter.com"
+                >
                   <i className="bi bi-twitter twit"></i>Twitter
                 </a>
               </li>
               <li>
-                <a className="teleg text-decoration-none" href="https://www.telegram.org">
+                <a
+                  className="teleg text-decoration-none"
+                  href="https://www.telegram.org"
+                >
                   <i className="bi bi-telegram teleg"></i>Telegram
                 </a>
               </li>

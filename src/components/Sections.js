@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React,{useState} from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { productData, responsive } from "./data";
 import Product from "./Product";
-import { Button, Col, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import TopCreators from "./TopCreators";
 import LiveAuctions from "./LiveAuctions";
 import RecentlyAdded from "./RecentlyAdded";
@@ -42,7 +44,7 @@ const Sections = () => {
           {menu.map((item) => {
             return (
               <Col md={6} lg={3} key={item}>
-                <TopCreators  />
+                <TopCreators />
               </Col>
             );
           })}
@@ -54,7 +56,7 @@ const Sections = () => {
           {menu1.map((item) => {
             return (
               <Col md={6} lg={3} key={item}>
-                <LiveAuctions/>
+                <LiveAuctions />
               </Col>
             );
           })}
@@ -66,12 +68,14 @@ const Sections = () => {
           {menu2.map((item) => {
             return (
               <Col md={6} lg={3} key={item}>
-                <RecentlyAdded/>
+                <RecentlyAdded />
               </Col>
             );
           })}
         </Row>
-        <Button className="mt-4" variant="info">Load More</Button>
+        <Button className="mt-4" variant="info">
+          Load More
+        </Button>
       </Container>
     </div>
   );

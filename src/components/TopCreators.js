@@ -1,6 +1,7 @@
 import React from "react";
-import { Card, Image, Stack } from "react-bootstrap";
-
+import Card  from "react-bootstrap/Card";
+import Image  from "react-bootstrap/Image";
+import Stack  from "react-bootstrap/Stack";
 const TopCreators = () => {
   return (
     <section id="menu">

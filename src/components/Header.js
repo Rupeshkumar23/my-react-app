@@ -4,7 +4,8 @@
  * @returns The Header component is returning a JSX element.
  */
 import React from "react";
-import { Image, Stack } from "react-bootstrap";
+import  Stack  from "react-bootstrap/Stack";
+import  Image  from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

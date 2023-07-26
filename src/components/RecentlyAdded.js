@@ -1,5 +1,8 @@
 import React from 'react'
-import { Card, Image, Nav, Stack } from 'react-bootstrap'
+import  Card from 'react-bootstrap/Card'
+import  Image from 'react-bootstrap/Image'
+import  Nav from 'react-bootstrap/Nav'
+import  Stack  from 'react-bootstrap/Stack'
 
 const RecentlyAdded = () => {
   return (
@@ -48,7 +51,7 @@ const RecentlyAdded = () => {
               <p className="fs-6">Collections of NFT's</p>
             </Stack>
             <Nav.Link href="#H">
-              <i class="bi bi-heart"></i>
+              <i className="bi bi-heart"></i>
             </Nav.Link>
             <span>350</span>
           </Stack>
