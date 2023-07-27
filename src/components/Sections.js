@@ -52,10 +52,10 @@ const Sections = () => {
         <div className="display-5 d-flex justify-content-center mt-4 mb-3 fw-bold text-danger">
           Live Auctions
         </div>
-        <Row>
+        <Row >
           {menu1.map((item) => {
             return (
-              <Col md={6} lg={3} key={item}>
+              <Col className="menu-col" md={6} lg={3} key={item}>
                 <LiveAuctions />
               </Col>
             );

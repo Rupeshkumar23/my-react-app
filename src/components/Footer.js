@@ -55,7 +55,7 @@ const Footer = () => {
                 <span className="text-primary fs-3">da</span>
                 <span className="text-danger fs-3">Face</span>
               </div>
-              <div className="text-danger fw-bold me-5">
+              <div className="text-danger fw-bold me-5 ">
                 Subscribe to the Newsletters.
               </div>
 

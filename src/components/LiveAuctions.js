@@ -4,11 +4,12 @@ import   Image from "react-bootstrap/Image";
 import   Nav from "react-bootstrap/Nav";
 import   Stack  from "react-bootstrap/Stack";
 
+
 const LiveAuctions = () => {
   return (
-    <section id="menu1">
+    <section id="menu1" >
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={require("./Data_Images/steve.jpg")} />
+        <Card.Img   variant="top" src={require("./Data_Images/steve.jpg")} />
         <Card.Body>
           <Card.Title className="text-info fw-bold d-flex justify-content-start">
             NFT's
