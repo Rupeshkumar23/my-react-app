@@ -12,7 +12,8 @@
   justify-content: center;
 }
 .background-image-container {
-  background-image: url("./images/White-BG.jpg");
+  background-image: linear-gradient(#c8d6e5,#6361f7), url("./images/White-BG.jpg");
+  background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +31,7 @@ h1 {
 
 .product--image {
   width: 100%;
-  height: 16em;
+  height: 15em;
   object-fit: cover;
 }
 
